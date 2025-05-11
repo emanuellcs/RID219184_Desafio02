@@ -31,6 +31,7 @@ nav {
 
 h2 {
   margin: 0;
+  flex-shrink: 0;
 }
 
 .conteudo {
@@ -81,6 +82,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: nowrap;
   margin-bottom: 1rem;
   padding-left: 1.5rem;
   padding-bottom: 0.75rem;
@@ -262,6 +264,10 @@ footer {
 
   .barra-lateral {
     margin-top: 2rem;
+  }
+
+  .cabecalho-secao h2 {
+    font-size: 1.1rem;
   }
 }
 
